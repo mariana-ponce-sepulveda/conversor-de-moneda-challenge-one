@@ -106,6 +106,7 @@ validacion del sistema solo adminte numero y mayor de 0 en la conversion:
    ```
 
 ---
+
 ## Acceso al Proyecto
 ### ✅ Ejecutar localmente (requisitos)
 - Java JDK 17+ instalado.
