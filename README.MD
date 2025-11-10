@@ -73,7 +73,7 @@ A continuación se describen escenarios y ejemplos de uso:
    Al ejecutar la aplicación se muestra un banner ASCII y un menú con opciones de conversión:
   
    ```
-  ![Inicio](images/inicio.png)
+  ![Inicio](Images/inicio.png)
    ```
 
 2. **Conversión en tiempo real**  
@@ -81,28 +81,28 @@ A continuación se describen escenarios y ejemplos de uso:
    La aplicación consulta la API y muestra:
  
   ```
- ![Conversión](images/conversion.png)
+ ![Conversión](Images/conversion.png)
    ```
 
 3. **Historial**  
 El usuario puede ver las conversiones realizadas durante la sesión:
 
  ```
- ![Historial](images/historial.png)
+ ![Historial](Images/historial.png)
  
 ```
 4. **Validacion del sistema**  
 validacion del sistema solo adminte numero y mayor de 0 en la conversion:
 
  ```
- ![Validacion](images/validacion.png)
+ ![Validacion](Images/validacion.png)
  
 ```  
 4
  **Mensaje al salir del sistema**  
   
    ```
-   ![Mensaje](images/mensaje.png)
+   ![Mensaje](Images/mensaje.png)
    ```
 
 ---
