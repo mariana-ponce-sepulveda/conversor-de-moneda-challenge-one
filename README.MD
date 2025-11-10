@@ -1,6 +1,5 @@
 # 💱 Conversor de Monedas - Proyecto Java
 
-![Portada del proyecto](images/cover.png)
 
 [![Java](https://img.shields.io/badge/Java-17-orange)](https://www.oracle.com/java/)
 [![Gson](https://img.shields.io/badge/Gson-2.10.1-blue)](https://github.com/google/gson)
@@ -15,9 +14,8 @@
 3. [Demostración de funciones y aplicaciones](#demostración-de-funciones-y-aplicaciones)
 4. [Acceso al Proyecto](#acceso-al-proyecto)
 5. [Tecnologías utilizadas](#tecnologías-utilizadas)
-6. [Personas Contribuyentes](#personas-contribuyentes)
-7. [Personas Desarrolladoras del Proyecto](#personas-desarrolladoras-del-proyecto)
-8. [Licencia](#licencia)
+6. [Personas Desarrolladoras del Proyecto](#personas-desarrolladoras-del-proyecto)
+7. [Licencia](#licencia)
 
 ---
 
@@ -73,34 +71,38 @@ A continuación se describen escenarios y ejemplos de uso:
 
 1. **Inicio y menú**  
    Al ejecutar la aplicación se muestra un banner ASCII y un menú con opciones de conversión:
-   ```
   
+   ```
+  ![Inicio](images/inicio.png)
    ```
 
 2. **Conversión en tiempo real**  
    El usuario selecciona una opción (por ejemplo 1: USD → CLP) y proporciona un monto.  
    La aplicación consulta la API y muestra:
-  
+ 
+  ```
+ ![Conversión](images/conversion.png)
    ```
 
 3. **Historial**  
-   El usuario puede ver las conversiones realizadas durante la sesión:
-   ```
-  
-   ```
+El usuario puede ver las conversiones realizadas durante la sesión:
 
-4. **Animación de carga**  
-   Mientras la aplicación espera la respuesta de la API se muestra una animación en consola:
-   ```
-  
-   ```
+ ```
+ ![Historial](images/historial.png)
+ 
+```
+4. **Validacion del sistema**  
+validacion del sistema solo adminte numero y mayor de 0 en la conversion:
 
----
-5
- **Mensaje de salir del sistema**  
-    se muestra un mensaje con una animación:
-   ```
+ ```
+ ![Validacion](images/validacion.png)
+ 
+```  
+4
+ **Mensaje al salir del sistema**  
   
+   ```
+   ![Mensaje](images/mensaje.png)
    ```
 
 ---
@@ -133,10 +135,6 @@ java -cp "out;lib\gson-2.10.1.jar" com.conversor.app.Principal
 
 ---
 
-## Personas Contribuyentes
-- Mariana Ponce — Coordinación, pruebas y documentación
-
----
 
 ## Personas Desarrolladoras del Proyecto
 - **Mariana Ponce** — Desarrollo principal, diseño de la interfaz de consola, integración API, documentación.
